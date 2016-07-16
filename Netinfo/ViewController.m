@@ -31,7 +31,15 @@
     [signIn addTarget:self action:@selector(signInBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
     [signIn setTitle:@"Sign In" forState:UIControlStateNormal];
     signIn.layer.borderColor = [UIColor redColor].CGColor;
-        
+    signIn.layer.borderWidth = 2;
+    signIn.layer.cornerRadius = 8;
+    [self.view addSubview:signIn];
+    
+    
+
+   
+    
+
     
     
     
