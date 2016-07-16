@@ -28,8 +28,10 @@
     
     UIButton * signIn = [[UIButton alloc]initWithFrame:CGRectMake(10, 250, self.view.frame.size.width-20, 40)];
     signIn.backgroundColor = [UIColor orangeColor];
+    [signIn addTarget:self action:@selector(signInBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [signIn setTitle:@"Sign In" forState:UIControlStateNormal];
+    signIn.layer.borderColor = [UIColor redColor].CGColor;
         
-    
     
     
     
