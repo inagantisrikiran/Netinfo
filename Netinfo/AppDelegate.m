@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +20,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    ViewController *sree=[[ViewController alloc ]init];
+    UINavigationController*sree1=[[UINavigationController alloc]initWithRootViewController:sree];
+    self.window.rootViewController=sree1;
     return YES;
-}
+    
+    
+};
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     
