@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "NewViewController.h"
 
 
 @interface ViewController ()
@@ -26,26 +27,23 @@
     loginbutton.center=self.view.center;
     [self.view addSubview:loginbutton];
     
-    UIButton * signIn = [[UIButton alloc]initWithFrame:CGRectMake(10, 250, self.view.frame.size.width-20, 40)];
+    UIButton * signIn = [[UIButton alloc]initWithFrame:CGRectMake(100,200,200,40 )];
     signIn.backgroundColor = [UIColor orangeColor];
-    [signIn addTarget:self action:@selector(signInBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [signIn addTarget:self action:@selector(clickEvent:)forControlEvents:UIControlEventTouchUpInside];
     [signIn setTitle:@"Sign In" forState:UIControlStateNormal];
-    signIn.layer.borderColor = [UIColor redColor].CGColor;
-    signIn.layer.borderWidth = 2;
-    signIn.layer.cornerRadius = 8;
     [self.view addSubview:signIn];
     
+    }
+-(IBAction)clickEvent:(id)sender
+{
+    NewViewController *data=[[NewViewController alloc]init];
+    [self.navigationController pushViewController:data animated:YES ];
+    
+    }
+
     
 
    
-    
-
-    
-    
-    
-    
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0C2D521D41789400C55F0E /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0C2D511D41789400C55F0E /* NewViewController.m */; };
 		EB70926D1D385A0700D610B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB70926C1D385A0700D610B2 /* main.m */; };
 		EB7092701D385A0700D610B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB70926F1D385A0700D610B2 /* AppDelegate.m */; };
 		EB7092731D385A0700D610B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7092721D385A0700D610B2 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0C2D501D41789400C55F0E /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		EB0C2D511D41789400C55F0E /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		EB7092681D385A0700D610B2 /* Netinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB70926C1D385A0700D610B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB70926E1D385A0700D610B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				EB70926F1D385A0700D610B2 /* AppDelegate.m */,
 				EB7092711D385A0700D610B2 /* ViewController.h */,
 				EB7092721D385A0700D610B2 /* ViewController.m */,
+				EB0C2D501D41789400C55F0E /* NewViewController.h */,
+				EB0C2D511D41789400C55F0E /* NewViewController.m */,
 				EB7092741D385A0700D610B2 /* Main.storyboard */,
 				EB70927A1D385A0800D610B2 /* Assets.xcassets */,
 				EB70927C1D385A0800D610B2 /* LaunchScreen.storyboard */,
@@ -299,6 +304,7 @@
 			files = (
 				EB7092731D385A0700D610B2 /* ViewController.m in Sources */,
 				EB7092701D385A0700D610B2 /* AppDelegate.m in Sources */,
+				EB0C2D521D41789400C55F0E /* NewViewController.m in Sources */,
 				EB70926D1D385A0700D610B2 /* main.m in Sources */,
 				EB7092791D385A0800D610B2 /* Netinfo.xcdatamodeld in Sources */,
 			);
@@ -536,6 +542,7 @@
 				EB70929A1D385A0800D610B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB70929B1D385A0800D610B2 /* Build configuration list for PBXNativeTarget "NetinfoTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +551,7 @@
 				EB70929D1D385A0800D610B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB70929E1D385A0800D610B2 /* Build configuration list for PBXNativeTarget "NetinfoUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +560,7 @@
 				EB7092A01D385A0800D610B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
